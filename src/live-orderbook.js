@@ -3,7 +3,7 @@
 const asTable   = require ('as-table')
     , log       = require ('ololog').noLocate
     , ansi      = require ('ansicolor').nice
-    , ccxt      = require ('../../ccxt.js')
+    , ccxt      = require ('ccxt')
 
 let printSupportedExchanges = function () {
     log ('Supported exchanges:', ccxt.exchanges.join (', ').green)
