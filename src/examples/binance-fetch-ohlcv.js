@@ -1,6 +1,6 @@
 "use strict";
 
-const ccxt       = require ('../../ccxt.js')
+const ccxt       = require ('ccxt')
 const asciichart = require ('asciichart')
 const asTable    = require ('as-table')
 const log        = require ('ololog').configure ({ locate: false })

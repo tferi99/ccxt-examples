@@ -11,5 +11,15 @@ const EXCHG = 'binance';
     let exchange = new ccxt[EXCHG](ccxt.extend ({ enableRateLimit }, settings[EXCHG]));
     await exchange.loadMarkets();
     let balance = await exchange.fetchBalance();
-    console.log ('Exchange[' + exchange.id + "]: ", balance['free']);
+    //console.log ('Exchange[' + exchange.id + "]: ", balance['free']);
+
+    let b = balance['free'];
+    for (var curr in b) {
+        if (b[curr] != 0) {
+            console.log(curr + ": " + b[curr]);
+        }
+    }
+    //console.log(b);
+
 }) ()
+
