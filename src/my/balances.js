@@ -8,18 +8,24 @@ const EXCHG = 'binance';
 
 (async () => {
     const settings = utils.loadCredentials();
-    let exchange = new ccxt[EXCHG](ccxt.extend ({ enableRateLimit }, settings[EXCHG]));
-    await exchange.loadMarkets();
+    // console.log('settings: ', settings);
+
+    const exchangeId = 'binance';
+    const exchangeClass = ccxt[exchangeId];
+    const config = {...settings[exchangeId], timeout: 30000, enableRateLimit: true, verbose: true};
+    const exchange = new exchangeClass (config);
+
+    //let exchange = new ccxt[EXCHG](ccxt.extend ({ enableRateLimit }, settings[EXCHG]));
+
+    // await exchange.loadMarkets();
     let balance = await exchange.fetchBalance();
-    //console.log ('Exchange[' + exchange.id + "]: ", balance['free']);
+     console.log ('Exchange[' + exchange.id + "]: ", balance);
 
-    let b = balance['free'];
-    for (var curr in b) {
-        if (b[curr] != 0) {
-            console.log(curr + ": " + b[curr]);
+/*    let tb = balance['total'];
+    for (var curr in tb) {
+        if (tb[curr] != 0) {
+            console.log(curr + ": ", balance[curr]);
         }
-    }
-    //console.log(b);
-
+    }*/
 }) ()
 
