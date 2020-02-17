@@ -1,3 +1,3 @@
-import * as ccxt from 'ccxt';
-declare const getBalance: (exchange: ccxt.Exchange) => Promise<void>;
+import { Exchange } from 'ccxt';
+declare const getBalance: (exchange: Exchange) => Promise<void>;
 export { getBalance };

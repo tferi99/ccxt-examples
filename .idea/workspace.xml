@@ -1,268 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfd8d2fd-656f-4bd1-b943-d0b5e31046ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/my/exchange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    <list default="true" id="7a99e836-bdf2-469d-8318-6c27f4190b06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/impl/basic-chart.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/impl/binance-fetch-ohlcv.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/impl/fetch-closed-orders-history-private.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/impl/fetch-trades-public.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/impl/proba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/impl/rate-limiting-fetch-test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ccxt-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ccxt-examples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binance-fetch-ohlcv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/binance-fetch-ohlcv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binance-server-time.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/binance-server-time.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/credentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/credentials.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/arbitrage-pairs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/balances.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/basic-chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/bcc-vs-bch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/bitfinex-fetch-trades.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/bitfinex2-fetch-trades.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/bittrex-balance.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/bittrex-fetch-closed-orders-history.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/builtin-rate-limiting-rest-poller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/bypass-cloudflare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/cli.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/cors-proxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/create-order-handle-errors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/create-order-with-retry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/custom-proxy-url.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/env-variables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/error-handling.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/exchange-capabilities.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/exchanges-by-volume.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/exchanges.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/fetch-all-tickers-to-files.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/fetch-create-deposit-address.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/fetch-from-many-exchanges-simultaneously.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/fetch-ohlcv-cex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/fetch-okex-futures.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/fetch-orders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/fetch-ticker-from-multiple-exchanges.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/fetch-ticker-where-available.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/gdax-fetch-trades-pagination.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/hitbtc2-withdraw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/huobipro-market-buy-sell-fetch-trading-limits.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/instantiate-all-at-once.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/instantiate-all-from-json.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/live-orderbook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/live-ticker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/live-tickers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/load-all-symbols-at-once.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/load-all-tickers-at-once.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/looping-over-all-symbols-of-specific-exchanges.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/looping-over-specific-symbols-of-all-exchanges.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/market-status-and-currency-status.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/okex-fetch-ohlcv-since-limit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/order-book-extra-level-depth-param.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/poloniex-fetch-order-books.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/poloniex-limits-amount-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/proxy-round-robin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/search-all-exchanges.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/symbols.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/theocean1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/tickers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my/balances.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/balances.js" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/live-orderbook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/live-orderbook.js" afterDir="false" />
->>>>>>> ee94ac932a33324968cbc820df76ee47109bc070
+      <change beforePath="$PROJECT_DIR$/dist/impl/balances.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/impl/balances.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/impl/balances.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/impl/balances.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/impl/balances.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/impl/balances.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/my/arbitrage.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/my/arbitrage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/my/arbitrage.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/my/exchange-factory.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/my/exchange-factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/my/exchange-factory.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/my/live-orderbook.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/my/live-orderbook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/my/live-orderbook.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/impl/balances.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/balances.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-<<<<<<< HEAD
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-=======
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binance-server-time.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/credentials.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instantiate-all-from-json.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/live-orderbook.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my/consts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my/utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic-chart.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bitfinex-fetch-trades.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/balances.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
->>>>>>> ee94ac932a33324968cbc820df76ee47109bc070
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="TypeScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>recvWindow</find>
-      <find>credentials.json</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/binance-server-time.js" />
-        <option value="$PROJECT_DIR$/src/my_balances.js" />
-        <option value="$PROJECT_DIR$/src/my/cots.js" />
-        <option value="$PROJECT_DIR$/src/my/consts.js" />
-        <option value="$PROJECT_DIR$/src/my/utils.js" />
-        <option value="$PROJECT_DIR$/src/my/my_balances.js" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/instantiate-all-from-json.js" />
-        <option value="$PROJECT_DIR$/src/my/balances.js" />
-        <option value="$PROJECT_DIR$/src/examples/binance-fetch-ohlcv.js" />
-        <option value="$PROJECT_DIR$/src/my/exchange.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/main.ts" />
-=======
-        <option value="$PROJECT_DIR$/src/live-orderbook.js" />
->>>>>>> ee94ac932a33324968cbc820df76ee47109bc070
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="276" />
-    <option name="y" value="228" />
-    <option name="width" value="1678" />
-    <option name="height" value="1018" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ccxt-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccxt-examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccxt-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccxt-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccxt-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccxt-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1XUxvi1ALWlJ30jXle7pCHCwl1v" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\GIT\work\general\crypto\ccxt-examples\node_modules\typescript\lib" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GIT\work\general\crypto\ccxt-examples" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GIT\work\general\crypto\ccxt-examples\src\examples" />
-      <recent name="D:\GIT\work\crypto\ccxt-examples\src\my" />
-    </key>
+    <property name="ts.external.directory.path" value="D:\GIT\work\crypto\ccxt-examples\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -276,23 +59,7 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Node.js.exchange.js">
-=======
-  <component name="RunManager" selected="Node.js.live-orderbook.js">
->>>>>>> ee94ac932a33324968cbc820df76ee47109bc070
-    <configuration name="balances" type="NodeJSConfigurationType" temporary="true" path-to-js-file="balances.js" working-dir="$PROJECT_DIR$/src/my">
-      <method v="2" />
-    </configuration>
-    <configuration name="binance-fetch-ohlcv.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="binance-fetch-ohlcv.js" working-dir="$PROJECT_DIR$/src/examples">
-      <method v="2" />
-    </configuration>
-    <configuration name="binance-server-time.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/examples/binance-server-time.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="exchange.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="exchange.js" working-dir="$PROJECT_DIR$/src/my">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -303,30 +70,9 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="live-orderbook.js" type="NodeJSConfigurationType" temporary="true" application-parameters="binance BTC/USDT 10" nameIsGenerated="true" path-to-js-file="live-orderbook.js" working-dir="$PROJECT_DIR$/src">
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Node.js.binance-server-time.js" />
-      <item itemvalue="Node.js.balances" />
-<<<<<<< HEAD
-      <item itemvalue="Node.js.binance-fetch-ohlcv.js" />
-      <item itemvalue="Node.js.exchange.js" />
-      <item itemvalue="npm.start:dev" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start:dev" />
-        <item itemvalue="Node.js.exchange.js" />
-        <item itemvalue="Node.js.binance-fetch-ohlcv.js" />
-=======
-      <item itemvalue="Node.js.live-orderbook.js" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.live-orderbook.js" />
->>>>>>> ee94ac932a33324968cbc820df76ee47109bc070
-        <item itemvalue="Node.js.balances" />
       </list>
     </recent_temporary>
   </component>
@@ -335,79 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cfd8d2fd-656f-4bd1-b943-d0b5e31046ab" name="Default Changelist" comment="" />
-      <created>1565871455379</created>
+      <changelist id="7a99e836-bdf2-469d-8318-6c27f4190b06" name="Default Changelist" comment="" />
+      <created>1581114706071</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565871455379</updated>
-<<<<<<< HEAD
-      <workItem from="1565871457395" duration="4092000" />
-      <workItem from="1565894878958" duration="1576000" />
-      <workItem from="1565968078060" duration="167000" />
-      <workItem from="1566121572796" duration="3362000" />
-      <workItem from="1566366676053" duration="230000" />
-=======
-      <workItem from="1565871457395" duration="7386000" />
->>>>>>> ee94ac932a33324968cbc820df76ee47109bc070
+      <updated>1581114706071</updated>
+      <workItem from="1581114707352" duration="4287000" />
+      <workItem from="1581425377533" duration="6000" />
+      <workItem from="1581425398948" duration="11000" />
+      <workItem from="1581778113764" duration="1259000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="9427000" />
-=======
-    <option name="totallyTimeSpent" value="7386000" />
->>>>>>> ee94ac932a33324968cbc820df76ee47109bc070
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7063953" visible="true" weight="0.2507903" />
-      <window_info id="Structure" order="1" sideWeight="0.5006321" side_tool="true" weight="0.24973656" />
-      <window_info id="Favorites" order="2" sideWeight="0.5006321" side_tool="true" weight="0.24973656" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.19902913" />
-<<<<<<< HEAD
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4801164" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45125958" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297769" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3297769" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22017458" />
-      <window_info anchor="bottom" id="npm" order="12" sideWeight="0.29360464" weight="0.24636276" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7063953" weight="0.2507903" />
-      <window_info id="Structure" order="1" sideWeight="0.5006321" side_tool="true" weight="0.24973656" />
-      <window_info id="Favorites" order="2" sideWeight="0.5006321" side_tool="true" weight="0.24973656" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.19902913" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37924346" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45125958" />
-=======
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28446603" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
->>>>>>> ee94ac932a33324968cbc820df76ee47109bc070
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297769" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3297769" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22038835" />
-      <window_info anchor="bottom" id="npm" order="12" sideWeight="0.29360464" weight="0.24660194" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -417,120 +101,17 @@
       </list>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/examples/binance-server-time.js</url>
-          <line>6</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>binance.security</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/my/my_balances.js" />
-    <entry file="file://$PROJECT_DIR$/src/examples/credentials.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/instantiate-all-from-json.js" />
-    <entry file="file://$PROJECT_DIR$/src/examples/basic-chart.js" />
-    <entry file="file://$PROJECT_DIR$/src/examples/bitfinex-fetch-trades.js" />
-    <entry file="file://$PROJECT_DIR$/src/examples/balances.js" />
-    <entry file="file://$PROJECT_DIR$/src/examples/arbitrage-pairs.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/ccxt/ccxt.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="317" column="8" selection-start-line="317" selection-start-column="8" selection-end-line="317" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.build.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/binance-server-time.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="100" selection-start-line="19" selection-start-column="100" selection-end-line="19" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/binance-fetch-ohlcv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/my/exchange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/my/consts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/my/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/my/balances.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="238">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-=======
-        <state relative-caret-position="221">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/live-orderbook.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
->>>>>>> ee94ac932a33324968cbc820df76ee47109bc070
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
