@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a99e836-bdf2-469d-8318-6c27f4190b06" name="Default Changelist" comment="" />
+    <list default="true" id="7a99e836-bdf2-469d-8318-6c27f4190b06" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +17,7 @@
   <component name="ProjectId" id="1XUxvi1ALWlJ30jXle7pCHCwl1v" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/opt/crypto/WolfBot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -64,6 +67,7 @@
       <workItem from="1581425398948" duration="11000" />
       <workItem from="1581778113764" duration="1259000" />
       <workItem from="1581983121874" duration="61000" />
+      <workItem from="1585174181655" duration="9777000" />
     </task>
     <servers />
   </component>
