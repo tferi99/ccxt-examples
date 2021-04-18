@@ -19,6 +19,11 @@ export class ExchangeFactory {
         //console.log('CFG:', mergedConfig);
 
         const exch = new exchangeClass (mergedConfig);
+        if (exch.urls.test) {
+            exch.urls['api'] = exch.urls['test'];
+        }
+        console.log('Exchange UIRLs:', exch.urls);
+
         if (config && config.withMarkets) {
             await exch.loadMarkets();
         }

@@ -10,8 +10,10 @@ import {FetchClosedOrdersHistoryPrivate} from './impl/fetch-closed-orders-histor
 import { RateLimitingFetchTest } from './impl/rate-limiting-fetch-test';
 import {Exchange} from "ccxt";
 
+const CONFIG = {verbose: false, withMarkets: true};
+
 async function createExchange(exchangeId: string, config: any): Promise<Exchange> {
-    return await ExchangeFactory.create('binance', {verbose: false, withMarkets: true});
+    return await ExchangeFactory.create('binance', config);
 }
 
 async function createBinance(config: any): Promise<Exchange> {
@@ -19,21 +21,23 @@ async function createBinance(config: any): Promise<Exchange> {
 }
 
 async function testExchange() {
-    const exch = await createBinance({verbose: false, withMarkets: true});
+    const exch = await createBinance(CONFIG);
     console.log('Exchange:', exch)
 }
 
 async function balances() {
-    const exch = await createBinance({verbose: false, withMarkets: true});
+    const exch = await createBinance(CONFIG);
 
     bal.getBalance(exch);
 }
 
 async function live_orderbook() {
-    const exch = await createBinance({verbose: false, withMarkets: true});
+    const exch = await createBinance(CONFIG);
     const ob = new LiveOrderbook(exch);
-    //ob.printOrderBook('BTC/USDT', 10);
-    ob.printOrderBook('MATIC/USDT', 10);
+    const symbol = 'BTC/USDT';
+//    const symbol = 'MATIC/USDT';
+
+    ob.printOrderBook(symbol, 10);
 }
 
 async function arbitrage_pairs () {
@@ -48,7 +52,7 @@ async function basic_chart() {
 }
 
 async function fetch_trades_public() {
-    const exch = await createBinance({verbose: false, withMarkets: true});
+    const exch = await createBinance(CONFIG);
     const since = exch.milliseconds () - 86400000 // -1 day from now
     const symbol = 'ADA/USDT';
     //const symbol = 'BNB/USDT';
@@ -56,10 +60,11 @@ async function fetch_trades_public() {
 }
 
 async function fetch_closed_orders_history_private() {
-    const exch = await createBinance({verbose: false, withMarkets: true});
+    const exch = await createBinance(CONFIG);
     const fco = new FetchClosedOrdersHistoryPrivate();
     const startingDate = '2017-01-01T00:00:00';
-    const symbol = 'MATIC/USDT'
+    //const symbol = 'MATIC/USDT'
+    const symbol = 'ADA/USDT';
     fco.call(exch, startingDate, symbol);
 }
 
@@ -81,10 +86,10 @@ async function rate_limiting_fetch_test() {
 async function doit() {
     //await testExchange();
     //await balances();
-    //await live_orderbook();
+    await live_orderbook();
     //await arbitrage_pairs();
     //await basic_chart();
-     await fetch_trades_public();
+    //await fetch_trades_public();
     //await fetch_closed_orders_history_private();
     //await rate_limiting_fetch_test();
 
