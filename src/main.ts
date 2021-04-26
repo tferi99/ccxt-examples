@@ -90,10 +90,37 @@ async function rate_limiting_fetch_test() {
 
     Promise.all(concurrent);
 }
+
+/**
+ * See also:
+ *  - CCXT - Implicit API Methods: https://github.com/ccxt/ccxt/wiki/Manual#implicit-api-methods
+ *  - Binance - https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md#test-new-order-trade
+ *  - etc/binance-exchange.json/api/...
+ */
+async function callImplicit() {
+    const exch = await createExchange(EXCHANGE, config);
+    //const res = await  exch.sapiGetAccountSnapshot({type: 'SPOT'});
+    //const res = await  exch.publicGetExchangeInfo();
+    //const res = await  exch.publicGetDepth({symbol: 'BTCUSDT'});
+
+/*    await exch.privatePostOrder({
+        symbol: 'BTCUSDT',
+        side: 'BUY',
+        type: 'LIMIT',
+        quantity: 0.03,
+        timeInForce: 'GTC',
+        price: 15000
+    });*/
+
+    await exch.privateDeleteOpenOrders({symbol: 'BTCUSDT'});
+    const res = await  exch.privateGetOpenOrders();
+
+    console.log('Implicit result:', JSON.stringify(res));
+}
 //---------------------------------------------------------------------
 async function doit() {
     // ----- exchange info -----
-    await getExchange();
+    //await getExchange();
     //await getExchangeCapabilities();
     //await getExchangeMarkets();
     //await rate_limiting_fetch_test();
@@ -107,9 +134,12 @@ async function doit() {
     // ----- trade info -----
     //await fetch_trades_public();
     //await live_orderbook();
+    //await fetch_closed_orders_history_private();
 
     // ----- trade -----
-    //await fetch_closed_orders_history_private();
+
+    // ----- implicit  -----
+    await callImplicit();
 
     // ----- etc -----
     //await arbitrage_pairs();
