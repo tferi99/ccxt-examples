@@ -9,7 +9,7 @@ require ('ansicolor').nice;
 export class BasicChart {
     async do() {
         const index = 4 // [ timestamp, open, high, low, close, volume ]
-        const ohlcv = await new ccxt.okcoinusd().fetchOHLCV ('BTC/USD', '15m')
+        const ohlcv = await new ccxt.binance().fetchOHLCV ('BTC/USDT', '15m', undefined, 100)
         const lastPrice = ohlcv[ohlcv.length - 1][index] // closing price
         const series = ohlcv.map (x => x[index])         // closing price
         // @ts-ignore

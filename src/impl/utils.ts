@@ -1,6 +1,7 @@
 const fs = require('fs')
 import * as log from 'ololog';
-const consts = require ('./consts')
+import { CREDENTIAL_CONFIG } from '../constants';
+//import * as constants from './constants';
 
 log.configure({locate: false});
 
@@ -14,9 +15,9 @@ const fileExists = (path) => {
 }
 
 const loadCredentials = () => {
-    let file = consts.CREDENTIALS;
+    let file = CREDENTIAL_CONFIG;
     if (!fileExists(file)) {
-        throw consts.CREDENTIALS + ' does not exists';
+        throw CREDENTIAL_CONFIG + ' does not exists';
     }
     return require(file);
 }
