@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a99e836-bdf2-469d-8318-6c27f4190b06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/binance/binance-exchange.json" beforeDir="false" afterPath="$PROJECT_DIR$/etc/binance/binance-exchange.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/impl/exchange-factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/exchange-factory.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/impl/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +71,7 @@
       <workItem from="1619293997952" duration="9329000" />
       <workItem from="1619384921828" duration="5147000" />
       <workItem from="1619466800708" duration="4565000" />
-      <workItem from="1619552724308" duration="7578000" />
+      <workItem from="1619552724308" duration="8681000" />
     </task>
     <servers />
   </component>
