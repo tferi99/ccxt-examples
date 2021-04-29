@@ -142,11 +142,19 @@ async function callImplicit() {
 
     prittyPrintObjectAsJSON(res, `Implicit result`);
 }
+
+async function fetch_tickers() {
+    const exch = await createExchange(EXCHANGE, config);
+    const tickers = await exch.fetchTickers(['BTC/USDT', 'MATIC/USDT', 'BNB/USDT']);
+    prittyPrintObjectAsJSON(tickers, `Exchange[${exch.id}] - some tickers`);
+}
+
+
 //---------------------------------------------------------------------
 async function doit() {
     // ----- exchange info -----
     //await getExchange();
-    await getExchangeRequiredCredentials();
+    //await getExchangeRequiredCredentials();
     //await getExchangeCapabilities();
     //await getExchangeMarkets();
     //await rate_limiting_fetch_test();
@@ -156,6 +164,9 @@ async function doit() {
 
     // ----- chart, tickers -----
     //await basic_chart();
+
+    // market
+    await fetch_tickers()
 
     // ----- trade info -----
     //await fetch_trades_public();

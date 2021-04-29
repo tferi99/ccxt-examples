@@ -1,7 +1,7 @@
-const USE_TESTNET = true;
+const USE_TESTNET = false;
 
-const EXCHANGE="binance";
-//const EXCHANGE="coinbasepro";
+const EXCHANGE = 'binance';
+//const EXCHANGE = 'coinbasepro';
 
 /**
  *  Credential config JSON file structure:

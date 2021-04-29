@@ -1,5 +1,3 @@
-import {title} from "as-table";
-
 const fs = require('fs')
 import * as log from 'ololog';
 import { CREDENTIAL_CONFIG } from '../constants';
