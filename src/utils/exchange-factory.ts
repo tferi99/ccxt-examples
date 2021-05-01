@@ -32,7 +32,7 @@ export class ExchangeFactory {
             exch.setSandboxMode(true);
         }
         if (config && config.withMarkets) {
-            await exch.loadMarkets();
+            await exch.loadMarkets(true);
         }
         return exch;
     }
