@@ -160,13 +160,13 @@ async function doit() {
     //await rate_limiting_fetch_test();
 
     // ----- balance -----
-    //await balances();
+    await balances();
 
     // ----- chart, tickers -----
     //await basic_chart();
 
     // market
-    await fetch_tickers()
+    //await fetch_tickers()
 
     // ----- trade info -----
     //await fetch_trades_public();

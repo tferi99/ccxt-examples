@@ -19,7 +19,12 @@ export const loadCredentials = () => {
     if (!fileExists(file)) {
         throw CREDENTIAL_CONFIG + ' does not exists';
     }
-    return require(file);
+    try {
+        const data = require(file)
+        return data;
+    } catch (e) {
+        console.error(`Error during loading config file (${CREDENTIAL_CONFIG})`, e);
+    }
 }
 
 export const prittyPrintObjectAsJSON = (obj: any, title: string) => {
