@@ -31,7 +31,7 @@ export class ExchangeFactory {
         if (USE_TESTNET) {
             exch.setSandboxMode(true);
         }
-        if (config && config.withMarkets) {
+        if (mergedConfig && mergedConfig.withMarkets) {
             await exch.loadMarkets(true);
         }
         return exch;

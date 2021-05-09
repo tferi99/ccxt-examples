@@ -1,4 +1,4 @@
-const fs = require('fs')
+import * as fs  from 'fs';
 import * as log from 'ololog';
 import { CREDENTIAL_CONFIG } from '../constants';
 //import * as constants from './constants';

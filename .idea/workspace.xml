@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a99e836-bdf2-469d-8318-6c27f4190b06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/binance/binance-capabilities.json" beforeDir="false" afterPath="$PROJECT_DIR$/etc/binance/binance-capabilities.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/binance/binance-exchange.json" beforeDir="false" afterPath="$PROJECT_DIR$/etc/binance/binance-exchange.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/binance/binance-markets.json" beforeDir="false" afterPath="$PROJECT_DIR$/etc/binance/binance-markets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/exchange-factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/exchange-factory.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.ts" afterDir="false" />
     </list>
@@ -80,6 +75,7 @@
       <workItem from="1619466800708" duration="4565000" />
       <workItem from="1619552724308" duration="8681000" />
       <workItem from="1619675979488" duration="8188000" />
+      <workItem from="1620138131391" duration="4245000" />
     </task>
     <servers />
   </component>
